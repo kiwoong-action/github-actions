@@ -1,5 +1,5 @@
-name: push-workflow
-on: push
+name: push-workflow ## 이름
+on: push ## Event조건, push가 될 때 동작함
 
 jobs:
   push-job:
@@ -7,6 +7,4 @@ jobs:
     steps:
       - name: step1
         run: echo hello world
-/*
-
-*/
+## push push Job
